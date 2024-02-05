@@ -58,4 +58,57 @@
     .starter-two>img {
         display: none !important;
     }
+
+    .starter-one>input {
+        display: none;
+    }
+}
+
+.head {
+    margin-top: 70px;
+}
+
+.head-one {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.one>img {
+    object-fit: cover;
+    border-radius: 100%;
+    width: 100px;
+}
+.btn-2 {
+}
+
+.zero-h1 {
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.btn-2>button {
+    border: none;
+    background-color: #f64137;
+    padding: 5px 10px;
+    border-radius: 100%;
+    margin-left: 150px;
+}
+
+.btn-2>button>i {
+    font-size: 20px;
+    color: white;
+}
+
+.zero-1 {
+    color: black;
+}
+
+.coat-1 {
+    margin-top: 15px !important;
+}
+
+.contain>img {
+    margin-top: 30px !important;
 }
