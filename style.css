@@ -112,3 +112,105 @@
 .contain>img {
     margin-top: 30px !important;
 }
+
+.contain {
+    position: relative;
+}
+
+.contain>.heading-image {
+    position: absolute;
+    /* bottom: 200px; */
+    top: 150px;
+    left: 30px;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.contain>.image-paragraph {
+    position: absolute;
+    bottom: 280px;
+    left: 30px;
+    color: white;
+}
+
+.btn-3 {
+    font-size: 25px;
+    background-color: #f64137;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 15px;
+}
+.contain>.btn-3 {
+    position: absolute;
+    right: 86%;
+    top: 65%;
+}
+
+.small {
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.contain>.text-image {
+    position: absolute;
+    top: 85%;
+    left: 30px;
+    color: white;
+}
+
+.text-one {
+    font-weight: bold;
+}
+
+.text-one>.material-symbols-outlined {
+    font-size: 15px;
+    background-color: #f64137;
+    border-radius: 100%;
+}
+
+.text-two {
+    font-weight: bold;
+}
+
+
+.text-two>.material-symbols-outlined {
+    font-size: 15px;
+    background-color: #f64137;
+    border-radius: 100%;
+}
+
+.radius {
+    column-count: 4;
+    width: 500px !important;
+    margin-left: 250px !important;
+    vertical-align: middle;
+}
+
+.radius>img {
+    border-radius: 100%;
+    object-fit: cover;
+    width: 50px;
+    display: flex;
+}
+
+.radius>.image-one {
+    font-size: 50px;
+    background-color: grey;
+    border-radius: 100%;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .one>img {
+        text-align: center !important;
+    }
+
+    .zero-h1 {
+        font-size: 20px;
+        text-align: center !important;
+    }
+} 
