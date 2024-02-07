@@ -241,7 +241,7 @@
     } 
 
     .contain>img {
-        height: 750px;
+        height: 550px;
     }
 
     .contain>.heading-image {
@@ -262,6 +262,17 @@
     }
 
     .contain>.btn-3 {
-        display: none;
+        left: 8%;
+        right: 10%;
+        top: 70%;
     }
+
+    .contain>.heading-image {
+        top: 10%;
+    }
+
+    .contain>.image-paragraph {
+        top: 45%;
+    }
+
 }
