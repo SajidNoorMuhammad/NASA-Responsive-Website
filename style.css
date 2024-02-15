@@ -129,9 +129,10 @@
 
 .contain>.image-paragraph {
     position: absolute;
-    bottom: 280px;
+    top: 50%;
     left: 30px;
     color: white;
+    font-size: 20px;
 }
 
 .btn-3 {
@@ -145,7 +146,7 @@
 }
 .contain>.btn-3 {
     position: absolute;
-    right: 86%;
+    right: 87%;
     top: 65%;
 }
 
@@ -274,5 +275,29 @@
     .contain>.image-paragraph {
         top: 45%;
     }
+}
 
+.two-two {
+    margin-top: 60px;
+}
+
+.two-two>.left-side {
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+}
+
+.two-two>.right-side {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-left: 570px;
+}
+
+.two-two>.right-side>.material-symbols-outlined {
+    font-size: 20px;
+    background-color: #f64137;
+    border-radius: 100%;
+    color: white;
+    padding: 4px;
 }
