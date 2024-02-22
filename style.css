@@ -663,3 +663,45 @@
     position: absolute;
     top: 90%;
 }
+
+.contain-4 {
+    background-color: black;
+}
+
+.footer-2 {
+    color: white;
+}
+
+.footer-3 {
+    color: white;
+}
+
+.footer-4 {
+    color: white;
+    font-weight: bold;
+}
+
+.footer-1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footer-5 {
+    color: white;
+    /* margin-top: 30px; */
+}
+
+.footer-6 {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.footer {
+    margin-top: 30px !important;
+}
+
+.two-three {
+    margin-top: 8% !important;
+}
